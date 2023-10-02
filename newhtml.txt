@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин телефонов и гаджетов</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключите свой файл CSS здесь -->
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в наш магазин!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Телефоны</a></li>
+                <li><a href="#">Гаджеты</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <article class="product">
+                <img src="phone1.jpg" alt="Телефон 1">
+                <h2>Телефон 1</h2>
+                <p>Описание товара 1.</p>
+                <p>Цена: $500</p>
+                <button>Добавить в корзину</button>
+            </article>
+
+            <article class="product">
+                <img src="phone2.jpg" alt="Телефон 2">
+                <h2>Телефон 2</h2>
+                <p>Описание товара 2.</p>
+                <p>Цена: $600</p>
+                <button>Добавить в корзину</button>
+            </article>
+
+            <!-- Добавьте больше товаров по аналогии -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Интернет-магазин телефонов и гаджетов</p>
+    </footer>
+</body>
+</html>
